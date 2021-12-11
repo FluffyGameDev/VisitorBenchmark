@@ -1,0 +1,16 @@
+VisitorBenchmarkCpp/CMakeLists.txt.user
+VisitorBenchmarkCpp/CMakeCache.txt
+VisitorBenchmarkCpp/CMakeFiles
+VisitorBenchmarkCpp/CMakeScripts
+VisitorBenchmarkCpp/Testing
+VisitorBenchmarkCpp/Makefile
+VisitorBenchmarkCpp/cmake_install.cmake
+VisitorBenchmarkCpp/install_manifest.txt
+VisitorBenchmarkCpp/compile_commands.json
+VisitorBenchmarkCpp/CTestTestfile.cmake
+VisitorBenchmarkCpp/_deps
+VisitorBenchmarkCpp/out/*
+VisitorBenchmarkCpp/.vs/*
+VisitorBenchmarkCSharp/VisitorBenchmarkCSharp/bin/*
+VisitorBenchmarkCSharp/VisitorBenchmarkCSharp/obj/*
+VisitorBenchmarkCSharp/.vs/*

@@ -1,0 +1,45 @@
+﻿{
+    "configurations": [
+        {
+            "name": "x64-Debug (default)",
+            "generator": "Ninja",
+            "configurationType": "Debug",
+            "inheritEnvironments": [ "msvc_x64_x64" ],
+            "buildRoot": "${projectDir}\\out\\build\\${name}",
+            "installRoot": "${projectDir}\\out\\install\\${name}",
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "",
+            "ctestCommandArgs": "",
+            "variables": [
+                {
+                    "name": "BENCHMARK_DOWNLOAD_DEPENDENCIES",
+                    "value": "False",
+                    "type": "BOOL"
+                },
+                {
+                    "name": "BENCHMARK_ENABLE_GTEST_TESTS",
+                    "value": "False",
+                    "type": "BOOL"
+                }
+            ]
+        },
+        {
+            "name": "x64-Release",
+            "generator": "Ninja",
+            "configurationType": "RelWithDebInfo",
+            "buildRoot": "${projectDir}\\out\\build\\${name}",
+            "installRoot": "${projectDir}\\out\\install\\${name}",
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "",
+            "ctestCommandArgs": "",
+            "inheritEnvironments": [ "msvc_x64_x64" ],
+            "variables": [
+                {
+                    "name": "BENCHMARK_ENABLE_GTEST_TESTS",
+                    "value": "False",
+                    "type": "BOOL"
+                }
+            ]
+        }
+    ]
+}
